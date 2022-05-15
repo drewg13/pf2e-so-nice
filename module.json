@@ -20,6 +20,6 @@
     "scripts/pf2e-so-nice.js"
   ],
   "url": "https://github.com/drewg13/pf2e-so-nice",
-  "manifest": "https://raw.githubusercontent.com/drewg13/pf2e-so-nice/main/nice-more-dice/module.json",
-  "download": "https://raw.githubusercontent.com/drewg13/pf2e-so-nice/main/module.zip"
+  "manifest": "https://raw.githubusercontent.com/drewg13/pf2e-so-nice/main/module.json",
+  "download": "https://github.com/drewg13/pf2e-so-nice/archive/v1.0.zip"
 }
