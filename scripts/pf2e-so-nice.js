@@ -50,4 +50,107 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       texture: 'skulls'
   });
 
+  dice3d.addColorset({
+    name: 'bleed',
+      description: 'PF2E.TraitBleed',
+      category: 'DICESONICE.DamageTypes',
+      foreground: '#CDB800',
+      background: '#6F0000',
+      outline: 'black',
+      texture: 'marble'
+  });
+
+  dice3d.addColorset({
+    name: 'good',
+      description: 'PF2E.TraitGood',
+      category: 'DICESONICE.DamageTypes',
+      foreground: '#e7f702',
+      background: 'white',
+      outline: 'black',
+      texture: 'ice',
+      material: 'none'
+  });
+
+  dice3d.addColorset({
+    name: 'lawful',
+      description: 'PF2E.TraitLawful',
+      category: 'DICESONICE.DamageTypes',
+      foreground: 'black',
+      background: 'white',
+      outline: 'black',
+      texture: 'none',
+      material: 'glass',
+      edge: 'black'
+  });
+
+  dice3d.addColorset({
+    name: 'chaotic',
+    description: 'PF2E.TraitChaotic',
+    category: 'DICESONICE.DamageTypes',
+    foreground: '#40d322',
+    background: '#912a93',
+    outline: '#cc288a',
+    texture: 'fire',
+    material: 'iridescent'
+  });
+
+  dice3d.addColorset({
+    name: 'evil',
+    description: 'PF2E.TraitEvil',
+    category: 'DICESONICE.DamageTypes',
+    foreground: '#787878',
+    background: '#3d6c46',
+    outline: 'black',
+    texture: 'cloudy_2',
+    material: 'chrome'
+  });
+
+  dice3d.addColorset({
+    name: 'bludgeoning',
+    description: 'PF2E.TraitBludgeoning',
+    category: 'DICESONICE.DamageTypes',
+    foreground: 'white',
+    background: '#8a8a8a',
+    outline: 'black',
+    edge: 'black',
+    texture: 'metal',
+    material: 'metal'
+  });
+
+  dice3d.addColorset({
+    name: 'piercing',
+    description: 'PF2E.TraitPiercing',
+    category: 'DICESONICE.DamageTypes',
+    foreground: 'white',
+    background: '#8a8a8a',
+    outline: 'black',
+    edge: 'black',
+    texture: 'metal',
+    material: 'metal'
+  });
+
+  dice3d.addColorset({
+    name: 'slashing',
+    description: 'PF2E.TraitSlashing',
+    category: 'DICESONICE.DamageTypes',
+    foreground: 'white',
+    background: '#8a8a8a',
+    outline: 'black',
+    edge: 'black',
+    texture: 'metal',
+    material: 'metal'
+  });
+
+  dice3d.addColorset({
+    name: 'precision',
+    description: 'PF2E.TraitPrecision',
+    category: 'DICESONICE.DamageTypes',
+    foreground: 'white',
+    background: '#8a8a8a',
+    outline: 'black',
+    edge: 'black',
+    texture: 'metal',
+    material: 'metal'
+  });
+
 });
