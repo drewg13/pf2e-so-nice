@@ -3,9 +3,9 @@
   "title": "PF2E So Nice",
   "description": "Duplicates damage dice themes from DND5E damage types to equivalent PF2E damage types",
   "author": "agaringer",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "10",
   "dependencies": [
     {
       "type": "module",
@@ -21,5 +21,5 @@
   ],
   "url": "https://github.com/drewg13/pf2e-so-nice",
   "manifest": "https://raw.githubusercontent.com/drewg13/pf2e-so-nice/main/module.json",
-  "download": "https://github.com/drewg13/pf2e-so-nice/archive/v1.1.zip"
+  "download": "https://github.com/drewg13/pf2e-so-nice/archive/v1.2.zip"
 }

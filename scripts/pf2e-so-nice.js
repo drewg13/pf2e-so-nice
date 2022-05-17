@@ -109,12 +109,12 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     name: 'bludgeoning',
     description: 'PF2E.TraitBludgeoning',
     category: 'DICESONICE.DamageTypes',
-    foreground: 'white',
-    background: '#8a8a8a',
-    outline: 'black',
-    edge: 'black',
-    texture: 'metal',
-    material: 'metal'
+    foreground: 'black',
+    background: '#765b2e',
+    outline: '#473d29',
+    edge: '#704f29',
+    texture: 'wood',
+    material: 'wood'
   });
 
   dice3d.addColorset({
@@ -122,10 +122,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     description: 'PF2E.TraitPiercing',
     category: 'DICESONICE.DamageTypes',
     foreground: 'white',
-    background: '#8a8a8a',
+    background: '#31323a',
     outline: 'black',
     edge: 'black',
-    texture: 'metal',
+    texture: 'none',
     material: 'metal'
   });
 
@@ -134,9 +134,9 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     description: 'PF2E.TraitSlashing',
     category: 'DICESONICE.DamageTypes',
     foreground: 'white',
-    background: '#8a8a8a',
+    background: '#545454',
     outline: 'black',
-    edge: 'black',
+    edge: '#8a8a8a',
     texture: 'metal',
     material: 'metal'
   });
@@ -146,10 +146,10 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
     description: 'PF2E.TraitPrecision',
     category: 'DICESONICE.DamageTypes',
     foreground: 'white',
-    background: '#8a8a8a',
+    background: '#31323a',
     outline: 'black',
     edge: 'black',
-    texture: 'metal',
+    texture: 'none',
     material: 'metal'
   });
 
