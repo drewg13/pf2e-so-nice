@@ -27,4 +27,8 @@ Lawful
 
 Chaotic
 
-Bludgeoning/Piercing/Slashing/Precision (all the same)
+Bludgeoning
+
+Piercing/Precision (the same)
+
+Slashing
